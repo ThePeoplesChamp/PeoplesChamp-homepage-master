@@ -75,7 +75,7 @@ const VoxelDesk = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/desk1.glb', {
+      loadGLTFModel(scene, '/Desk.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
