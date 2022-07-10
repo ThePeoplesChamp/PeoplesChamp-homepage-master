@@ -39,9 +39,9 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/gitfriend_00.jpg" alt="GitFriend" />
-      <WorkImage src="/images/works/gitfriend_01.jpg" alt="GitFriend" />
-      <WorkImage src="/images/works/gitfriend_02.jpg" alt="GitFriend" />
+      <WorkImage src="/images/works/gitfriend_00.JPG" alt="GitFriend" />
+      <WorkImage src="/images/works/gitfriend_01.JPG" alt="GitFriend" />
+      <WorkImage src="/images/works/gitfriend_02.JPG" alt="GitFriend" />
     </Container>
   </Layout>
 )

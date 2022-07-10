@@ -40,17 +40,17 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/househunter_00.jpg" alt="House Hunter" />
+      <WorkImage src="/images/works/househunter_00.JPG" alt="House Hunter" />
       <SimpleGrid columns={2} spacing={2} >
-        <WorkImage src="/images/works/househunter_01.jpg" alt="House Hunter" />
-        <WorkImage src="/images/works/househunter_03.jpg" alt="House Hunter" />
+        <WorkImage src="/images/works/househunter_01.JPG" alt="House Hunter" />
+        <WorkImage src="/images/works/househunter_03.JPG" alt="House Hunter" />
       </SimpleGrid>
-      <WorkImage src="/images/works/househunter_02.jpg" alt="House Hunter" />
+      <WorkImage src="/images/works/househunter_02.JPG" alt="House Hunter" />
       <SimpleGrid columns={2} spacing={2} >
-        <WorkImage src="/images/works/househunter_04.jpg" alt="House Hunter" />
-        <WorkImage src="/images/works/househunter_06.jpg" alt="House Hunter" />
+        <WorkImage src="/images/works/househunter_04.JPG" alt="House Hunter" />
+        <WorkImage src="/images/works/househunter_06.JPG" alt="House Hunter" />
       </SimpleGrid>
-      <WorkImage src="/images/works/househunter_05.jpg" alt="House Hunter" />
+      <WorkImage src="/images/works/househunter_05.JPG" alt="House Hunter" />
     </Container>
   </Layout>
 )

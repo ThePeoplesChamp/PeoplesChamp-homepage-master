@@ -40,10 +40,10 @@ const Project = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/techsupport_00.jpg" alt="Tech Support" />
-      <WorkImage src="/images/works/techsupport_01.jpg" alt="Tech Support" />
-      <WorkImage src="/images/works/techsupport_02.jpg" alt="Tech Support" />
-      <WorkImage src="/images/works/techsupport_03.jpg" alt="Tech Support" />
+      <WorkImage src="/images/works/techsupport_00.JPG" alt="Tech Support" />
+      <WorkImage src="/images/works/techsupport_01.JPG" alt="Tech Support" />
+      <WorkImage src="/images/works/techsupport_02.JPG" alt="Tech Support" />
+      <WorkImage src="/images/works/techsupport_03.JPG" alt="Tech Support" />
     </Container>
   </Layout>
 )

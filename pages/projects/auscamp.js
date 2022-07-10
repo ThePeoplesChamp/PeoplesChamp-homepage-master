@@ -41,10 +41,10 @@ const Project = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/auscamp_00.jpg" alt="AusCamp" />
-      <WorkImage src="/images/works/auscamp_01.jpg" alt="AusCamp" />
-      <WorkImage src="/images/works/auscamp_02.jpg" alt="AusCamp" />
-      <WorkImage src="/images/works/auscamp_03.jpg" alt="AusCamp" />
+      <WorkImage src="/images/works/auscamp_00.JPG" alt="AusCamp" />
+      <WorkImage src="/images/works/auscamp_01.JPG" alt="AusCamp" />
+      <WorkImage src="/images/works/auscamp_02.JPG" alt="AusCamp" />
+      <WorkImage src="/images/works/auscamp_03.JPG" alt="AusCamp" />
 
     </Container>
   </Layout>
