@@ -108,7 +108,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/ThePeoplesChamp/PeoplesChamp-homepage-master"
                 >
                   View Source
                 </MenuItem>

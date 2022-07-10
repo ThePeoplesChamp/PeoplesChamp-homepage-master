@@ -17,12 +17,12 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Jacobs Homepage" />
         <meta name="author" content="Jacob Clement" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.JPG" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Jacob Clement" />
         <meta name="og:title" content="Jacob Clement" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="apple-touch-icon.png" />
+        <meta property="og:image" content="apple-touch-icon.JPG" />
         <title>Jacob Clement - Homepage</title>
       </Head>
 

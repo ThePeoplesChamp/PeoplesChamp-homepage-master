@@ -21,6 +21,7 @@ const VoxelDesk = () => {
       20 * Math.cos(0.2 * Math.PI)
     )
   )
+
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
@@ -74,7 +75,7 @@ const VoxelDesk = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/desk.glb', {
+      loadGLTFModel(scene, '/desk1.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

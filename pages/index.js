@@ -28,7 +28,7 @@ import {
   ThreejsOriginalWordmarkIcon,
   Html5OriginalWordmarkIcon,
   Css3OriginalWordmarkIcon,
-  FirebasePlainWordmarkIcon
+  FirebasePlainWordmarkIcon,
 } from 'react-devicons'
 
 
@@ -95,7 +95,7 @@ const Home = () => (
           Tech Stack I'm Currently Building With
         </Heading>
 
-        <SimpleGrid columns={9}>
+        <SimpleGrid columns={{ base: '5', md: '9' }} spacing={9} paddingBlock={1} paddingInlineEnd={4}>
           <Box as={ReactOriginalWordmarkIcon} size="50" />
           <Box as={MongodbOriginalWordmarkIcon} size="50" />
           <Box as={JavascriptOriginalIcon} size="50" />
@@ -203,7 +203,7 @@ const Home = () => (
         </List>
       </Section>
     </Container>
-  </Layout>
+  </Layout >
 )
 
 export default Home
