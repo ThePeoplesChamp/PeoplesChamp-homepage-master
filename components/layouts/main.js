@@ -22,7 +22,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Jacob Clement" />
         <meta name="og:title" content="Jacob Clement" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" href="apple-touch-icon.png" />
+        <meta property="og:image" content="apple-touch-icon.png" />
         <title>Jacob Clement - Homepage</title>
       </Head>
 
