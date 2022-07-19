@@ -5,7 +5,6 @@ import {
   List,
   ListItem,
 } from '@chakra-ui/react'
-import { DiReact } from 'react-icons/di'
 import { ExternalLinkIcon, Icon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'

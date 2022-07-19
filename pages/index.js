@@ -30,7 +30,7 @@ import {
   Css3OriginalWordmarkIcon,
   FirebasePlainWordmarkIcon,
 } from 'react-devicons'
-import P from '../components/paragraph'
+
 
 
 const ProfileImage = chakra(Image, {
