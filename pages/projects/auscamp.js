@@ -31,7 +31,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>JavaScript, Bootstrap, MongoDB, Mongoose, Express, NodeJS, EJS <Icon as={DiReact} /></span>
+          <span>JavaScript, Bootstrap, MongoDB, Mongoose, Express, NodeJS, EJS </span>
         </ListItem>
         <ListItem listStylePos="inline" >
           <Meta>Source</Meta>
