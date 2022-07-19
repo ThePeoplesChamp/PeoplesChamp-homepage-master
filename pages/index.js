@@ -30,6 +30,7 @@ import {
   Css3OriginalWordmarkIcon,
   FirebasePlainWordmarkIcon,
 } from 'react-devicons'
+import P from '../components/paragraph'
 
 
 const ProfileImage = chakra(Image, {
@@ -91,9 +92,14 @@ const Home = () => (
         <Paragraph>
           I am a chemical engineering graduate currently working in the health, safety and environment space at The Arnotts Group. Passionate and self-motivated individual with a drive to succeed. Enthusiastic about environmentally conscious engineering for a sustainable future. Passionate about all things technology and software development. Excellent interpersonal skills and technical background are well suited to team-based environments. A complementary ability to work using intuition and without explicit direction.
         </Paragraph>
-        <Heading as="h3" variant="section-title">
-          Tech Stack I'm Currently Building With
-        </Heading>
+        <SimpleGrid column={0}>
+          <Heading as="h3" variant="section-title">
+            Tech Stack I'm Currently
+          </Heading>
+          <Heading as="h3" variant="section-title" mt={-1}>
+            Building With
+          </Heading>
+        </SimpleGrid>
 
         <SimpleGrid columns={{ base: '5', md: '9' }} spacing={9} paddingBlock={1} paddingInlineEnd={4}>
           <Box as={ReactOriginalWordmarkIcon} size="50" />
