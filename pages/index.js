@@ -147,7 +147,7 @@ const Home = () => (
           Engineering Internship - The GFG Liberty Steelworks
         </BioSection>
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1BLNDl_qsaAHoUWrwa0RMAIllySJyz5Zd/view?usp=sharing" passHref scroll={false} isExternal >
+          <NextLink href="https://drive.google.com/file/d/1RzCJ-c_JIRkM3eEVzoFuN_SDu-Lm0OgU/view?usp=sharing" passHref scroll={false} isExternal >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" variant="ghost">
               My resume
             </Button>
