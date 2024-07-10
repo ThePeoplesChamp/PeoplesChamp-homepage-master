@@ -20,16 +20,16 @@ import Section from '../components/section'
 import { IoLogoLinkedin, IoLogoGithub, IoMail } from 'react-icons/io5'
 import Image from 'next/image'
 import {
-  JavascriptOriginalIcon,
-  ReactOriginalWordmarkIcon,
-  MongodbOriginalWordmarkIcon,
-  NodejsOriginalWordmarkIcon,
-  ExpressOriginalWordmarkIcon,
-  ThreejsOriginalWordmarkIcon,
-  Html5OriginalWordmarkIcon,
-  Css3OriginalWordmarkIcon,
-  FirebasePlainWordmarkIcon,
-} from 'react-devicons'
+  JavascriptOriginal,
+  ReactOriginalWordmark,
+  JavaOriginalWordmark,
+  NodejsOriginalWordmark,
+  ExpressOriginalWordmark,
+  SpringOriginalWordmark,
+  PostgresqlOriginalWordmark,
+  AmazonwebservicesOriginalWordmark,
+  FirebasePlainWordmark,
+} from 'devicons-react'
 
 
 
@@ -101,15 +101,15 @@ const Home = () => (
         </SimpleGrid>
 
         <SimpleGrid columns={{ base: '5', md: '9' }} spacing={9} paddingBlock={1} paddingInlineEnd={4}>
-          <Box as={ReactOriginalWordmarkIcon} size="50" />
-          <Box as={MongodbOriginalWordmarkIcon} size="50" />
-          <Box as={JavascriptOriginalIcon} size="50" />
-          <Box as={ExpressOriginalWordmarkIcon} size="50" />
-          <Box as={ThreejsOriginalWordmarkIcon} size="50" />
-          <Box as={Html5OriginalWordmarkIcon} size="50" />
-          <Box as={Css3OriginalWordmarkIcon} size="50" />
-          <Box as={NodejsOriginalWordmarkIcon} size="50" />
-          <Box as={FirebasePlainWordmarkIcon} size="50" />
+          <Box as={ReactOriginalWordmark} size="50" />
+          <Box as={JavaOriginalWordmark} size="50" />
+          <Box as={JavascriptOriginal} size="50" />
+          <Box as={ExpressOriginalWordmark} size="50" />
+          <Box as={SpringOriginalWordmark} size="50" />
+          <Box as={PostgresqlOriginalWordmark} size="50" />
+          <Box as={AmazonwebservicesOriginalWordmark} size="50" />
+          <Box as={NodejsOriginalWordmark} size="50" />
+          <Box as={FirebasePlainWordmark} size="50" />
         </SimpleGrid>
 
         <Box align="center" my={4}>
