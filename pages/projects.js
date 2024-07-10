@@ -18,11 +18,6 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="auscamp" title="AusCamp" thumbnail={thumbAusCamp}>
-            An Australian camping blog where users can post, edit, review and view camping sites all over the country.
-          </WorkGridItem>
-        </Section>
-        <Section>
           <WorkGridItem
             id="gitfriend"
             title="GitFriend"
@@ -37,11 +32,6 @@ const Projects = () => (
             title="House Hunter"
             thumbnail={thumbHouseHunters}>
             A Marketplace for real estate.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="techsupport" thumbnail={thumbTechSupport} title="Tech Support">
-            A tech support ticketing system that allows employees to submit issues to their IT department.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -56,7 +56,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacob Clement
           </Heading>
-          <p>Process Engineer, Full-Stack Web Developer, Creative</p>
+          <p>Software Engineer, Creative</p>
         </Box>
         <Box
           flexShrink={0}
@@ -90,8 +90,7 @@ const Home = () => (
           Bio
         </Heading>
         <Paragraph>
-          I am a chemical engineering graduate currently working in the health, safety and environment space at The Arnotts Group. Passionate and self-motivated individual with a drive to succeed. Enthusiastic about environmentally conscious engineering for a sustainable future. Passionate about all things technology and software development. Excellent interpersonal skills and technical background are well suited to team-based environments. A complementary ability to work using intuition and without explicit direction.
-        </Paragraph>
+          As a Software Engineer I bring extensive experience in developing advanced solutions for web-based technologies. My technical expertise shines through in leading code enhancements, optimizing processes, and collaborating with teams to deliver efficient client solutions. I am proficient in Java, Spring MVC/Spring Boot, Open API Generator, PostgreSQL, Docker, GitHub, and AWS, specializing in impactful software development.        </Paragraph>
         <SimpleGrid column={0}>
           <Heading as="h3" variant="section-title">
             Tech Stack I'm Currently
@@ -127,12 +126,16 @@ const Home = () => (
           Experience
         </Heading>
         <BioSection>
-          <BioYear>2022 - Present</BioYear>
+          <BioYear>2023 - Present</BioYear>
+          Software Engineer - Mantel Group
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 - 2023</BioYear>
           Graduate Process Engineer - The Arnotts Group
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Graduated from The University Of Adelaide with a Bachelor of Chemical Engineering achieving first class honours.
+          Graduated from The University Of Adelaide with a Bachelor of Process Engineering achieving first class honours.
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2021</BioYear>
@@ -146,13 +149,6 @@ const Home = () => (
           <BioYear>2019 - 2020</BioYear>
           Engineering Internship - The GFG Liberty Steelworks
         </BioSection>
-        <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1RzCJ-c_JIRkM3eEVzoFuN_SDu-Lm0OgU/view?usp=sharing" passHref scroll={false} isExternal >
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" variant="ghost">
-              My resume
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.3}>
