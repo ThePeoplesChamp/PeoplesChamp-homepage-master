@@ -3,10 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbAusCamp from '../public/images/works/auscamp_00.JPG'
 import thumbGitFriend from '../public/images/works/gitfriend_00.JPG'
 import thumbHouseHunters from '../public/images/works/househunter_00.JPG'
-import thumbTechSupport from '../public/images/works/techsupport_000.JPG'
 
 
 const Projects = () => (
